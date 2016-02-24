@@ -477,22 +477,31 @@ body {
 	margin: auto;
 }
 
-/*     Flexbox display for Contact information     */ 
+.header_presentation h2 {
 
-.info {
-
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	width: 100%;
+	font-size: 20px;
 }
 
-/*   setting the width to flexbox items    */
+/*     Contact Info list styling     */ 
+
+.info_list {
+
+	padding-left: 0;
+	list-style: none;	
+}
+
+/*   Contact Info list items styling   */
+
+
+.info_list_item {
+
+	margin-bottom: 30px;
+}
 
 .info input, select {
 
-	width: 60%;
+	float: right;
+	width: 80%;
 }
 
 .info label {
@@ -502,7 +511,14 @@ body {
 
 .zip_code {
 
+	float: left;
 	max-width: 150px;
+}
+
+.zip_code_label {
+
+	float: left;
+	margin: 0;
 }
 
 

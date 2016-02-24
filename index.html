@@ -29,21 +29,34 @@
 
 			<legend class="contact">Contact Information</legend>
 
+				
+				<ul class="info_list">
+				<li class="info_list_item">
 				<label for="name">Full Name</label>
 				<input type="text" id="name" name="user_name" class="required" placeholder="Required">
+				</li>
 				
+				<li class="info_list_item">
 				<label for="email">Email Address</label>
 				<input type="email" id="email" name="user_email" class="required" placeholder="Required">
+				</li>
 
+				<li class="info_list_item"
 				<label for="phone_number">Phone Number</label>
 				<input type="tel" id="phone_number" name="user_number">
+				</li>
 
+				<li class="info_list_item"
 				<label for="street_address">Street Address</label>
 				<input type="text" id="street_address" name="user_street_address">
+				</li>
 
+				<li class="info_list_item"
 				<label for="city">City</label>
 				<input type="text" id="city" name="user_city">
-
+				</li>
+				
+				<li class="info_list_item">
 				<label for="state">State</label>
 				<select class="drop_down_state" id="state">
 					<option value="State">Choose State</option>
@@ -99,9 +112,12 @@
 					<option value="WI">Wisconsin</option>
 					<option value="WY">Wyoming</option>
 				</select>
-				
-				<label for="zip_code">Zip Code</label>
+				</li>
+				<li class="info_list_item">
+				<label for="zip_code" class="zip_code_label">Zip Code</label>
 				<input type="text" id="zip_code" name="user_zip_code" class="zip_code">
+				</li>
+				</ul>
 
 			</fieldset>
 
