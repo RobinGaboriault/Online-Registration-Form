@@ -2,11 +2,15 @@
 
 /* Global Styles  */
 
+
 * {
+	
 	margin: auto;
 	font-family: "Merriweather", serif;
 	font-size: 14px;
 	line-height: 1.8;
+	padding-left: 0;
+	list-style: none;	
 }
 
 
@@ -509,9 +513,11 @@ body {
 	width:20%;
 }
 
+
+
 .zip_code {
 
-	float: left;
+	float: none;
 	max-width: 150px;
 }
 
