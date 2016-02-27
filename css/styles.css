@@ -473,7 +473,11 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 
+.zip_code {
 
+	float: none;
+	max-width: 150px;
+}
 
 
 }
