@@ -14,7 +14,6 @@
 }
 
 
-
 /*         HEADER         */
 
 .header {
@@ -70,6 +69,8 @@
 
 /*            FORM          */
 
+
+
 .form {
 
 	color: #6E7D8D;
@@ -118,14 +119,21 @@ fieldset {
 	text-align: left;
 }
 
+
+.contact {  
+
+	margin-bottom: 20px;
+}
+
+
 .form legend {
 
+	font-size: 16px;
 	padding-top: 2em;
 	font-weight: 700;
 	color: #2D3945;
-	margin-left: 10px;
 	text-align: left;
-	width: 90%;
+	width: 100%;
 }
 
 .newsletter {
@@ -345,7 +353,9 @@ input[type='radio'] {
 
 #comments_section {
 
-	display: inline-block;
+	clear: left;
+	float: left;
+	display: block;
 	padding-bottom: 20px;
 }
 
@@ -355,9 +365,10 @@ input[type='radio'] {
 	border-radius: 3px;
 	min-height: 100px;
 	margin: auto;
-	width: 90%;
+	width: 100%;
 	border-style: none;
 	background-color: #EFF0F1;
+	text-align: center;
 }
  
 .radio_list {
@@ -379,7 +390,8 @@ input[type='radio'] {
 
 .newsletter_format_html, .newsletter_format_text {
 	
-
+	padding-left: 10px;
+	clear: right;
 	margin: auto;
 }
 
@@ -388,7 +400,7 @@ input[type='radio'] {
 #newsletter_format_html, #newsletter_format_text {
 
 	float: left;
-	width:20%;}
+}	
 
 
 /*            FOOTER          */
@@ -435,13 +447,30 @@ footer {
 }
 
 
+/* Adding focus state to input elements */
+
+input:focus, textarea:focus, select:focus {
+	
+	outline-color: #46698B;
+}
+
+
+input[type="checkbox"], input[type="radio"] {
+
+	outline-color: #46698B;
+}
+
+
 
 
 /* Media Query for Tablets users */
 
-@media only screen and ( max-width: 768px), only screen and (min-width: 700px) and (orientation: landscape){
+@media only screen and ( min-width: 760px), only screen and (min-width: 700px) and (orientation: landscape){
 
+.user_comments {
 
+	width: 100%;
+}
 
 
 
