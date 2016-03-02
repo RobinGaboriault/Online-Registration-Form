@@ -138,6 +138,8 @@ fieldset {
 
 .newsletter {
 
+	padding: 0;
+	margin: 0;
 	margin-bottom: 20px;
 	width: 100%;
 
@@ -467,27 +469,7 @@ input[type="checkbox"], input[type="radio"] {
 
 @media only screen and ( min-width: 760px), only screen and (min-width: 700px) and (orientation: landscape){
 
-.user_comments {
 
-	width: 100%;
-}
-
-
-.zip_code {
-
-	float: none;
-	max-width: 150px;
-}
-
-
-}
-
-
-
-
-/* Media Query for Desktop users   */
-
-@media only screen and (min-width: 1024px) {
 
 * {
 
@@ -568,7 +550,10 @@ body {
 	width: 80%;
 }
 
+#comments {
 
+	width: 100%;
+}
 
 
 
